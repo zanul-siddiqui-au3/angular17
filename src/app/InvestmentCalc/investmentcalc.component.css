@@ -1,0 +1,15 @@
+.investment-container {
+    background-color: rgb(70, 158, 70);
+    width: 100%;
+    padding: 50px;
+    justify-content: center;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+}
+
+.form-input {
+    margin: 15px;
+}

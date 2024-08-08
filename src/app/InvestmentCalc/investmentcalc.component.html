@@ -1,0 +1,13 @@
+<div class="investment-container">
+    <div class="input-container">
+        <input placeholder="Intial" type="number" class="form-input" [(ngModel)]="investmentValue().intial" />
+        <input placeholder="Anuual" type="number" class="form-input" [(ngModel)]="investmentValue().annual" />
+    </div>
+    <div class="input-container">
+        <input placeholder="Expected Return" type="number" class="form-input" [(ngModel)]="investmentValue().expectedReturn" />
+        <input placeholder="Duration" type="number" class="form-input" [(ngModel)]="investmentValue().duration" />
+    </div>
+    <div class="input-container">
+        <button (click)="handleCalc()" >Calculate</button>
+    </div>
+</div>
